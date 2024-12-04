@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+#test: ../test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: mywrkspacev1
+  project: det_waste
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/mywrkspacev1/det_waste/3
